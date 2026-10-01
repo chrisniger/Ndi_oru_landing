@@ -18,7 +18,7 @@ import {
   WalletCards,
 } from "lucide-react";
 import { useState } from "react";
-import { siApple, siGoogleplay } from "simple-icons";
+import { applePath, googlePlayPath } from "@/lib/brand-icons";
 import { clientSteps, faqs, screenshots, serviceCategories, trustBenefits } from "@/config/content";
 import { siteConfig } from "@/config/site";
 
@@ -34,8 +34,8 @@ function SectionHeading({ eyebrow, title, copy }: { eyebrow: string; title: stri
 
 function StoreButton({ store }: { store: "Apple" | "Google Play" }) {
   const live = store === "Apple" ? siteConfig.appStoreUrl : siteConfig.playStoreUrl;
-  const brand = store === "Apple" ? siApple : siGoogleplay;
-  const content = <><svg className="storeBrandIcon" viewBox="0 0 24 24" role="img" aria-label={`${store} logo`}><path d={brand.path} /></svg><span><small>{live ? "Download on" : "Coming soon on"}</small>{store}</span></>;
+  const brandPath = store === "Apple" ? applePath : googlePlayPath;
+  const content = <><svg className="storeBrandIcon" viewBox="0 0 24 24" role="img" aria-label={`${store} logo`}><path d={brandPath} /></svg><span><small>{live ? "Download on" : "Coming soon on"}</small>{store}</span></>;
   return live ? <a className="storeButton" href={live} target="_blank" rel="noreferrer">{content}</a> : <span className="storeButton storeDisabled">{content}</span>;
 }
 
@@ -103,7 +103,7 @@ export function LandingPage() {
               <li><Check /> Receive eligible cancellation credits</li>
             </ul>
           </div>
-          <div className="bandPhone phone"><Image src="/images/app-screens/10.png" fill sizes="330px" alt="NDi ORU client wallet screen" /></div>
+          <div className="bandPhone phone"><Image src="/images/app-screens/4.png" fill sizes="330px" alt="NDi ORU app screen" /></div>
         </div>
       </section>
 

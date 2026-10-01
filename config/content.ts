@@ -36,11 +36,8 @@ export const screenshots = [
   { title: "Secure verification", image: "/images/app-screens/3.png", mode: "Account" },
   { title: "Client Mode home", image: "/images/app-screens/4.png", mode: "Client Mode" },
   { title: "Find local services", image: "/images/app-screens/5.png", mode: "Client Mode" },
-  { title: "Browse nearby artisans", image: "/images/app-screens/6.png", mode: "Client Mode" },
-  { title: "Review artisan profiles", image: "/images/app-screens/7.png", mode: "Client Mode" },
-  { title: "Manage service activity", image: "/images/app-screens/8.png", mode: "Client Mode" },
-  { title: "Messages and updates", image: "/images/app-screens/9.png", mode: "Client Mode" },
-  { title: "Wallet and account", image: "/images/app-screens/10.png", mode: "Client Mode" },
+  { title: "Go Live", image: "/images/app-screens/6.png", mode: "Service Mode" },
+  { title: "My Wallet", image: "/images/app-screens/7.png", mode: "Service Mode" },
 ] as const;
 
 export const faqs = [
