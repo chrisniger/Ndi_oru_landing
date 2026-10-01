@@ -1,0 +1,3 @@
+Inter (variable) — bundled from Google Fonts for the NDi ORU landing page.
+Licensed under the SIL Open Font License 1.1 — https://openfontlicense.org
+Copyright (c) 2016–2026 The Inter Project Authors.

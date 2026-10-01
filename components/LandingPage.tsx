@@ -125,7 +125,7 @@ export function LandingPage() {
         <SectionHeading eyebrow="One account. Two modes." title="Book a service. Offer a service. One app." copy="Switch between Client Mode and Service Mode anytime — find trusted artisans when you need help, or offer your own skills and earn." />
         <div className="modeGrid">
           <article className="modeCard modeClient"><div className="modeTop"><MapPin /><span>Client Mode</span></div><h3>Find the right help nearby.</h3><ul className="checkList"><li><Check /> Browse trusted artisans</li><li><Check /> Compare ratings and pricing</li><li><Check /> Fund and track services</li><li><Check /> Book past providers again</li></ul><a href="#services">Explore services <ArrowRight /></a></article>
-          <article className="modeCard modeService"><div className="modeTop"><BriefcaseBusiness /><span>Service Mode</span><small>Provider rollout next</small></div><h3>Turn your skills into opportunity.</h3><ul className="checkList"><li><Check /> Receive client requests</li><li><Check /> Manage jobs and availability</li><li><Check /> Build your rating</li><li><Check /> Track earnings and withdrawals</li></ul><a href={siteConfig.providerInterestUrl}>Register interest <ArrowRight /></a></article>
+          <article className="modeCard modeService"><div className="modeTop"><BriefcaseBusiness /><span>Service Mode</span></div><h3>Turn your skills into opportunity.</h3><ul className="checkList"><li><Check /> Receive client requests</li><li><Check /> Manage jobs and availability</li><li><Check /> Build your rating</li><li><Check /> Track earnings and withdrawals</li></ul><a href="#download">Download the App <ArrowRight /></a></article>
         </div>
       </section>
 

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { siteConfig } from "@/config/site";
@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary", title: "NDi ORU", description: "Book a Service. Offer a Service. One App." },
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#060a09",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
