@@ -47,8 +47,8 @@ export function LandingPage() {
       <section className="hero" id="home">
         <div className="heroTexture" aria-hidden="true" />
         <div className="heroScreens" aria-hidden="true">
-          <div className="phone phoneRear"><Image src="/images/app-screens/6.png" fill sizes="300px" alt="" priority /></div>
-          <div className="phone phoneMain"><Image src="/images/app-screens/4.png" fill sizes="340px" alt="" priority /></div>
+          <div className="phone phoneRear"><Image src="/images/app-screens/6.webp" fill sizes="300px" alt="" unoptimized decoding="async" priority /></div>
+          <div className="phone phoneMain"><Image src="/images/app-screens/4.webp" fill sizes="340px" alt="" unoptimized decoding="async" priority /></div>
         </div>
         <div className="heroContent pageWidth">
           <p className="eyebrow">Local skill. Trusted service.</p>
@@ -84,7 +84,7 @@ export function LandingPage() {
             </div>
           </div>
           <div className="processVisual">
-            <div className="phone processPhone"><Image src="/images/app-screens/7.png" fill sizes="360px" alt="NDi ORU artisan profile screen" /></div>
+            <div className="phone processPhone"><Image src="/images/app-screens/7.webp" fill sizes="360px" alt="NDi ORU artisan profile screen" unoptimized loading="lazy" decoding="async" /></div>
             <div className="processNote"><Star /><strong>Compare before you book</strong><span>Ratings, availability and starting prices stay visible.</span></div>
           </div>
         </div>
@@ -103,7 +103,7 @@ export function LandingPage() {
               <li><Check /> Receive eligible cancellation credits</li>
             </ul>
           </div>
-          <div className="bandPhone phone"><Image src="/images/app-screens/4.png" fill sizes="330px" alt="NDi ORU app screen" /></div>
+          <div className="bandPhone phone"><Image src="/images/app-screens/4.webp" fill sizes="330px" alt="NDi ORU app screen" unoptimized loading="lazy" decoding="async" /></div>
         </div>
       </section>
 
@@ -139,14 +139,14 @@ export function LandingPage() {
       <section className="section showcase" id="showcase">
         <div className="pageWidth"><SectionHeading eyebrow="Inside the app" title="A closer look at NDi ORU." copy="Explore the approved Client Mode experience from account setup to local service discovery and wallet management." /></div>
         <div className="screenRail" tabIndex={0} aria-label="NDi ORU app screen showcase">
-          {screenshots.map((screen) => <figure className="screenCard" key={screen.image}><div className="screenImage"><Image src={screen.image} fill sizes="280px" alt={screen.title} /></div><figcaption><span>{screen.mode}</span><strong>{screen.title}</strong></figcaption></figure>)}
+          {screenshots.map((screen) => <figure className="screenCard" key={screen.image}><div className="screenImage"><Image src={screen.image} fill sizes="280px" alt={screen.title} unoptimized loading="lazy" decoding="async" /></div><figcaption><span>{screen.mode}</span><strong>{screen.title}</strong></figcaption></figure>)}
         </div>
       </section>
 
       <section className="section pageWidth" id="download">
         <div className="downloadBand">
           <div><p className="eyebrow">NDi ORU mobile app</p><h2>Your next trusted artisan is closer than you think.</h2><p>Download links will activate here as soon as the app store rollout is ready.</p><div className="storeRow"><StoreButton store="Apple" /><StoreButton store="Google Play" /></div></div>
-          <Image src="/images/brand/ndi-oru-mark.png" width={260} height={260} alt="NDi ORU mark" />
+          <Image src="/images/brand/ndi-oru-mark.webp" width={260} height={260} alt="NDi ORU mark" unoptimized loading="lazy" decoding="async" />
         </div>
       </section>
 

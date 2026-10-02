@@ -14,7 +14,7 @@ export function Footer() {
       <div className="footerGrid">
         <div className="footerIntro">
           <a className="brand" href="#home">
-            <Image src="/images/brand/ndi-oru-mark.png" width={46} height={46} alt="" />
+            <Image src="/images/brand/ndi-oru-mark.webp" width={46} height={46} alt="" unoptimized loading="lazy" decoding="async" />
             <span>NDi ORU</span>
           </a>
           <p>One trusted marketplace for booking local services and building skilled businesses across Nigeria.</p>

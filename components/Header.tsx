@@ -12,7 +12,7 @@ export function Header() {
     <header className="siteHeader">
       <div className="navInner">
         <a className="brand" href="#home" aria-label="NDi ORU home">
-          <Image src="/images/brand/ndi-oru-mark.png" width={42} height={42} alt="" priority />
+          <Image src="/images/brand/ndi-oru-mark.webp" width={42} height={42} alt="" unoptimized decoding="async" priority />
           <span>NDi ORU</span>
         </a>
 

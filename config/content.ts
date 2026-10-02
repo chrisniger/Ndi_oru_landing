@@ -31,13 +31,13 @@ export const clientSteps = [
 ] as const;
 
 export const screenshots = [
-  { title: "Welcome to NDi ORU", image: "/images/app-screens/1.png", mode: "Account" },
-  { title: "Create your account", image: "/images/app-screens/2.png", mode: "Account" },
-  { title: "Secure verification", image: "/images/app-screens/3.png", mode: "Account" },
-  { title: "Client Mode home", image: "/images/app-screens/4.png", mode: "Client Mode" },
-  { title: "Find local services", image: "/images/app-screens/5.png", mode: "Client Mode" },
-  { title: "Go Live", image: "/images/app-screens/6.png", mode: "Service Mode" },
-  { title: "My Wallet", image: "/images/app-screens/7.png", mode: "Service Mode" },
+  { title: "Welcome to NDi ORU", image: "/images/app-screens/1.webp", mode: "Account" },
+  { title: "Create your account", image: "/images/app-screens/2.webp", mode: "Account" },
+  { title: "Secure verification", image: "/images/app-screens/3.webp", mode: "Account" },
+  { title: "Client Mode home", image: "/images/app-screens/4.webp", mode: "Client Mode" },
+  { title: "Find local services", image: "/images/app-screens/5.webp", mode: "Client Mode" },
+  { title: "Go Live", image: "/images/app-screens/6.webp", mode: "Service Mode" },
+  { title: "My Wallet", image: "/images/app-screens/7.webp", mode: "Service Mode" },
 ] as const;
 
 export const faqs = [
